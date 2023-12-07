@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koyyy's Website With Bootstrap</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+   <!-- This Is For Background Music --> 
+    <audio id="song">
+        <source src="FIFTY FIFTY - Cupid (Twin Version) (Lyrics).mp3">
+    </audio>
+    
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById("song").play();
+        });
+    </script>
+
+   <!-- This Is For Home, About, Features, And Contact --> 
+    <div class="container-fluid min-vh-100" style="background-image: url('lakeside-pink-sky-sunset-minimal-art-gradient-background-7680x3215-4584.png'); background-size: cover; background-position: center;">
+            <nav class="flex items-center">
+                <ul class="flex-1 text-center">
+                  <li class="list-none inline-block px-5"><a href="index.html" class="no-underline text-white px-2">Home</a></li>
+                  <li class="list-none inline-block px-5"><a href="aboutme.html" class="no-underline text-white px-2">About Me</a></li>
+                  <li class="list-none inline-block px-5"><a href="contact.html" class="no-underline text-white px-2">Contact Us</a></li>
+                </ul>
+            </nav>
+   <!-- For Paragraph -->     
+        <div class="text-white text-center mt-5"> 
+            <h1 class="display-4 font-weight-bold">Welcome To My Website<br>You Want To Know <span class="font-weight-light">Me Better?...</span></h1>
+            <p>Press The Button On Top In This Website.</p>
+   <!-- For Links -->     
+            <div class="mt-4">
+                <a href="https://fti.unai.edu/" class="btn btn-danger mr-3" role="button">FTI UNAI Website</a>
+                <a href="https://unai.edu/" class="btn btn-primary" role="button">UNAI Website</a>
+            </div>        
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery CDN links (required for Bootstrap functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
